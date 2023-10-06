@@ -1,0 +1,14 @@
+public class BatallaPokemon {
+    public static void main(String[] args) {
+       PokemonTierra Rhydon = new PokemonTierra("Rhydon", 10);
+        PokemonDragon Latios = new PokemonDragon("Latios", 10);
+
+        Rhydon.atacar("Fisura", Latios);
+        System.out.println("Estado de vida: Hp" +Latios.getHP());
+        System.out.println("Nivel=" + Latios.getNivel());
+        
+        Latios.atacar("Ciclon", Rhydon);
+        System.out.println("Estado de vida: Hp" +Latios.getHP());
+        System.out.println("Nivel"+ Latios.getNivel());
+    }
+}
