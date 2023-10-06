@@ -1,0 +1,5 @@
+public class PokemonTierra extends Pokemon{
+    public PokemonTierra(String nombre, int nivel) {
+        super(nombre, "Tipo Tierra", nivel);
+}
+}
